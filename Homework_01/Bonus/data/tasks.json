@@ -1,0 +1,34 @@
+[
+  {
+    "id": "dcc6edc1-9717-43c0-a333-7e116f3ed7fa",
+    "owner": "0a303022-2ca9-4aa7-b83d-cd8fb37a107b@mail.com",
+    "title": "Do homework 2",
+    "description": "Homework 2, Nodejs Basic",
+    "completed": true,
+    "createdAt": "2025-03-02T18:44:35.638Z"
+  },
+  {
+    "id": "5931acd5-0a43-4042-8bf1-86e45b04c68e",
+    "owner": "eccb5dea-7a9d-4800-8639-bc82ec690cfd@mail.com",
+    "title": "Do homework 3",
+    "description": "Homework 3, Nodejs Basic",
+    "completed": false,
+    "createdAt": "2025-03-02T18:44:35.639Z"
+  },
+  {
+    "id": "c0a03f0e-83bc-421b-9ed6-d294f0a712d5",
+    "owner": "eccb5dea-7a9d-4800-8639-bc82ec690cfd@mail.com",
+    "title": "Do homework 4",
+    "description": "Homework 4, Nodejs Basic",
+    "completed": false,
+    "createdAt": "2025-03-02T18:44:35.640Z"
+  },
+  {
+    "id": "957d9007-0b9b-435d-85ab-7941220acb08",
+    "owner": "724bdb53-1947-4b5d-aece-208aef6b4544@mail.com",
+    "title": "Do homework 5",
+    "description": "Homework 5, Nodejs Basic",
+    "completed": false,
+    "createdAt": "2025-03-02T18:44:35.640Z"
+  }
+]
