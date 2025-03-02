@@ -2,32 +2,28 @@ import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
 import { v4 as uuidv4 } from "uuid";
-import { get } from "https";
 
 const ___filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(___filename);
 
 const dataFolder = path.join(__dirname, "data");
-const tasksFile = path.join(dataFolder, "tasks.json"); // Path to the Database
+const tasksFile = path.join(dataFolder, "tasks.json");
 
-// Function to ensure the file and folder exist
 function ensureDataFile() {
   if (!fs.existsSync(dataFolder)) {
-    fs.mkdirSync(dataFolder); // Create "data" folder if missing
+    fs.mkdirSync(dataFolder);
   }
   if (!fs.existsSync(tasksFile)) {
-    fs.writeFileSync(tasksFile, "[]", "utf-8"); // Create "tasks.json" with an empty array
+    fs.writeFileSync(tasksFile, "[]", "utf-8");
   }
 }
 
-// Read all tasks
 function readAllTasks() {
-  ensureDataFile(); // Ensure file exists before reading
+  ensureDataFile();
   const tasks = fs.readFileSync(tasksFile, "utf-8");
   return JSON.parse(tasks);
 }
 
-// Create a new task
 function createTask(title, description) {
   const tasks = readAllTasks();
 
@@ -44,7 +40,6 @@ function createTask(title, description) {
   fs.writeFileSync(tasksFile, JSON.stringify(tasks, null, 2));
 }
 
-// Update a task
 function updateTask(id, title, description) {
   const tasks = readAllTasks();
   const taskIndex = tasks.findIndex((task) => task.id === id);
@@ -59,7 +54,6 @@ function updateTask(id, title, description) {
   fs.writeFileSync(tasksFile, JSON.stringify(tasks, null, 2));
 }
 
-// Delete a task
 function deleteTask(id) {
   const tasks = readAllTasks();
   const filteredTasks = tasks.filter((task) => task.id !== id);
