@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "title": "New Title",
+    "author": "New Author",
+    "year": 2025,
+    "genre": "Fiction",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "A thrilling page-turner!",
+        "reviewer": "Jane Smith"
+      },
+      {
+        "rating": 5,
+        "comment": "Kept me on edge the whole time.",
+        "reviewer": "David Brown"
+      },
+      {
+        "rating": 3,
+        "comment": "It was meh.",
+        "reviewer": "John Doe"
+      },
+      {
+        "rating": 5,
+        "comment": "It was superishka",
+        "reviewer": "John Doe"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Beyond the Horizon",
+    "author": "Michael Reynolds",
+    "year": 2018,
+    "genre": "Science Fiction",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "A masterpiece of futuristic storytelling.",
+        "reviewer": "Alex Johnson"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Echoes of the Past",
+    "author": "Samantha Lee",
+    "year": 2015,
+    "genre": "Historical Fiction",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Interesting but a bit slow in the middle.",
+        "reviewer": "Tom Wilson"
+      },
+      {
+        "rating": 4,
+        "comment": "Beautifully written and immersive.",
+        "reviewer": "Emma Davis"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Windswept",
+    "author": "Harold Bennett",
+    "year": 2022,
+    "genre": "Romance",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "A heartwarming love story.",
+        "reviewer": "Sophia Martinez"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "genre": "Dystopian",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "It was meh.",
+        "reviewer": "John Doe"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "The Shadow's Secret",
+    "author": "Nathan Carter",
+    "year": 2020,
+    "genre": "Thriller",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Full of unexpected twists!",
+        "reviewer": "Laura Green"
+      },
+      {
+        "rating": 2,
+        "comment": "Too predictable for my taste.",
+        "reviewer": "Mark Evans"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "A Walk Among the Stars",
+    "author": "Diana Peterson",
+    "year": 2019,
+    "genre": "Fantasy",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "An enchanting tale!",
+        "reviewer": "Chris Taylor"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Mind Over Matter",
+    "author": "Felix Goodman",
+    "year": 2017,
+    "genre": "Self-Help",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Motivating and insightful.",
+        "reviewer": "Linda Scott"
+      },
+      {
+        "rating": 3,
+        "comment": "Some ideas were repetitive.",
+        "reviewer": "James Walker"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Beneath the Surface",
+    "author": "Olivia Sanders",
+    "year": 2016,
+    "genre": "Crime",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Couldn't put it down!",
+        "reviewer": "Patricia Clark"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Parallel Worlds",
+    "author": "Marcus Bennett",
+    "year": 2023,
+    "genre": "Science Fiction",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "A unique take on time travel.",
+        "reviewer": "Ethan Lewis"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "hello there",
+    "author": "Harper Lee",
+    "year": 1950,
+    "genre": "comedy",
+    "reviews": []
+  }
+]
